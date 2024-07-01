@@ -1,0 +1,11 @@
+Nepalese Rupee	1.00	1.00 
+US Dollar	0.007486	133.579559
+Euro	0.006964	143.600633
+British Pound	0.005905	169.356887
+Indian Rupee	0.624707	1.600750
+Australian Dollar	0.011216	89.157149
+Canadian Dollar	0.010247	97.591225
+Singapore Dollar	0.010149	98.536418
+Swiss Franc	0.006748	148.197331
+Malaysian Ringgit	0.035288	28.338480
+Japanese Yen	1.206038	0.829161
