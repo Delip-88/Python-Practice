@@ -1,2 +1,3 @@
+or user in user_scores:
+    
 
-    print(f"{index}
