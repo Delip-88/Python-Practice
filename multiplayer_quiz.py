@@ -1,59 +1,8 @@
 import math
 import random
+import quiz_question
 
-questions = [
-    {
-        "question": "Which is the oldest national park in Nepal?",
-        "options": ["A. Sagarmatha National Park", "B. Rara National Park", "C. Chitwan National Park", "D. Makalu Barun National Park"],
-        "answer": "C"
-    },
-    {
-        "question": "In which year was the first successful ascent of Mount Everest, the highest peak in Nepal and the world, achieved?",
-        "options": ["A. 1952", "B. 1953", "C. 1954", "D. 1955"],
-        "answer": "B"
-    },
-    {
-        "question": "What is the national bird of Nepal?",
-        "options": ["A. Himalayan Monal", "B. Peacock", "C. Great Hornbill", "D. Indian Roller"],
-        "answer": "A"
-    },
-    {
-        "question": "Which is the longest river that flows entirely within Nepal?",
-        "options": ["A. Koshi River", "B. Karnali River", "C. Gandaki River", "D. Bagmati River"],
-        "answer": "A"
-    },
-    {
-        "question": "Who composed the current national anthem of Nepal ('Sayaun Thunga Phulka')?",
-        "options": ["A. King Tribhuvan", "B. King Mahendra", "C. Amber Gurung", "D. Chakrapani Chalise"],
-        "answer": "C"
-    },
-    {
-        "question": "Which ancient city in Nepal is known as the 'City of Devotees'?",
-        "options": ["A. Bhaktapur", "B. Patan", "C. Lumbini", "D. Janakpur"],
-        "answer": "A"
-    },
-    {
-        "question": "In which district of Nepal is the world's deepest gorge, the Kali Gandaki Gorge, located?",
-        "options": ["A. Mustang", "B. Dolpa", "C. Solukhumbu", "D. Manang"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the average elevation of the Kathmandu Valley, where the capital city is located?",
-        "options": ["A. Around 1,000 meters", "B. Around 1,400 meters", "C. Around 1,800 meters", "D. Around 2,200 meters"],
-        "answer": "B"
-    },
-    {
-        "question": "Who was the first Nepali to climb Mount Everest without supplemental oxygen?",
-        "options": ["A. Babu Chiri Sherpa", "B. Pasang Lhamu Sherpa", "C. Ang Rita Sherpa", "D. Tenzing Norgay Sherpa"],
-        "answer": "A"
-    },
-    {
-        "question": "Which ancient trade route passed through Nepal, connecting India and Tibet?",
-        "options": ["A. Silk Road", "B. Spice Route", "C. Salt Route", "D. Tea Horse Road"],
-        "answer": "D"
-    }
-]
-
+questions = quiz_question.questions
 random.shuffle(questions)
 
 def pick_random_questions(elements, no_of_question):
