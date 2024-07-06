@@ -33,8 +33,8 @@ for index, player in enumerate(user_names, start=1):
     # Remove selected questions from the remaining questions
     remaining_questions = [q for q in remaining_questions if q not in player_questions]
     
-    for question in player_questions:
-        print(f"{question['question']}")
+    for i,question in enumerate(player_questions,start=1):
+        print(f"{i}. {question['question']}")
         for option in question['options']:
             print(option)
         user_ans = input("Enter your answer: ").upper()
